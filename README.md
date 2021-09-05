@@ -21,4 +21,4 @@ KNOWN ISSUES
 
  - No sound FX in Safari because of delay when playing <audio> elements
  - Opera ignores <audio> volume and plays music/sounds very loud (and slightly delayed - uck!)
- - People who dont join [https://discord.com/invite/vF8BncMhHU](my discord server) will get 3 years of bad luck.
+ - People who dont join [my discord server](https://discord.com/invite/vF8BncMhHU) will get 3 years of bad luck.
