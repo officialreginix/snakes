@@ -68,18 +68,20 @@ Snakes = function() {
       { label: 'Slow',   dstep: 0.09, dscore: 0.75 },
       { label: 'Normal', dstep: 0.07, dscore: 1.00 },
       { label: 'Fast',   dstep: 0.05, dscore: 1.25 },
-      { label: 'Insane', dstep: 0.03, dscore: 1.5  }
+      { label: 'Insane', dstep: 0.03, dscore: 1.5  },
+      { label: 'WTF',    dstep: 0.01, dscore: 1.75 },
     ],
 
     highscores: [
-      { name: "amy",        score:  3000 }, 
-      { name: "jake",       score:  2500 },
-      { name: "ritchie",    score:  2000 },
-      { name: "eddie",      score:  1500 },
-      { name: "code",       score:  1000 },
-      { name: "incomplete", score:   500 },
-      { name: "liquid",     score:   250 },
-      { name: "planner",    score:   100 }
+      { name: "69",         score:  6900 },
+      { name: "gamer",      score:  5800 }, 
+      { name: "pewdiepie",  score:  4500 },
+      { name: "ritchie",    score:  3000 },
+      { name: "eddie",      score:  2500 },
+      { name: "code",       score:  1590 },
+      { name: "incomplete", score:  1000 },
+      { name: "liquid",     score:   950 },
+      { name: "planner",    score:   500 }
     ],
 
     colors: {
@@ -112,7 +114,7 @@ Snakes = function() {
       each:     80
     },
 
-    fruit: { score: 10, growth: 5, images: 16, size: 64 },
+    fruit: { score: 10, growth: 1, images: 16, size: 64 },
     snake: { x: 45, y: 26, length: 10, dir: DIR.LEFT }, 
     court: { w: 48, h: 36, layout: [
       "wwwwww                                    wwwwww", 
@@ -935,6 +937,3 @@ Snakes = function() {
   //=============================================================================
 
 };
-
-
-
