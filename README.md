@@ -1,4 +1,4 @@
-Javascript Snakes
+Javascript Snakes [![CodeFactor](https://www.codefactor.io/repository/github/3kh0/snake/badge)](https://www.codefactor.io/repository/github/3kh0/snake)
 =================
 
 An HTML5 Snakes Game
