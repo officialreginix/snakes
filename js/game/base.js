@@ -93,7 +93,7 @@ if (!Function.prototype.bind) {
 
 if (!Object.create) {
   Object.create = function(base) {
-    function F() {};
+    function F() {}
     F.prototype = base;
     return new F();
   }
